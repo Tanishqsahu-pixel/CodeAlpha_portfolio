@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">Portfolio.</a>
+      <ul>
+        <li>
+          <a
+            href="#"
+            onclick="document.querySelector('.home').scrollIntoView({behavior: 'smooth'});"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="document.querySelector('.about').scrollIntoView({behavior: 'smooth'});"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="document.querySelector('.portfolio').scrollIntoView({behavior: 'smooth'});"
+            >Skill</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="document.querySelector('.service').scrollIntoView({behavior: 'smooth'});"
+            >Service</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="document.querySelector('.contact').scrollIntoView({behavior: 'smooth'});"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    
+    <section class="home">
+      <div class="home-info">
+        <h1>Tanishq Sahu</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4">Frontend Developer</span>
+          <span style="--i: 3">Youtuber</span>
+          <span style="--i: 2">Designer</span>
+          <span style="--i: 1">Web Designer</span>
+        </h2>
+        <p>
+          Hey there! I'm Tanishq, a web developer who loves building cool,
+          user-friendly websites. Whether it's styling with CSS, structuring
+          with HTML, or making forms interactive, I'm all about making the web
+          more exciting. Take a look around!
+        </p>
+        <div class="btn-sci">
+          <a href="CV.png" class="btn">Download CV</a>
+          <div class="sci">
+            <a href="https://github.com/Tanishqsahu-pixel"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/tanishq-sahu-743435256/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.youtube.com/@dc_mix"><i class="bx bxl-youtube"></i></a>
+            <a href="https://www.instagram.com/tan.ishqsahu/"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <center>
+      <div class="home-img">
+        <div class="imgbox">
+          <div class="img-item">
+            <img src="Mypic.jpg" alt="my img" />
+          </div>
+        </div>
+      </div>
+      </center>
+    </section><br>
+    <section class="about">
+      <h1>About Me</h1>
+      <div class="innerabout">
+        <p>
+          I'm pursuing my BCA from
+          <i>Maharishi University of Information & Technologies.</i>
+        </p>
+        <br />
+        <div class="city">
+          <i
+            >I live in
+            <h1>lucknow.</h1></i
+          >
+        </div>
+        <p>
+          I am an underclassman and a fast learner which means I can also do
+          that work which I haven't done yet. Adapting a new environment and new
+          technologies make me update to work freindly and freely.
+        </p>
+        <p>Eduction</p>
+        <p><b>High school:</b> 2019-2020: 79.6%</p>
+        <p>ST. Anthony Public School</p>
+        <p><b>Intermediate:</b> 2021-2022:68.6%</p>
+        <p>ST. Anthony Public School</p>
+      </div>
+    </section>
+    <br>
+    
+    <section class="portfolio">
+      <h1>Skills</h1>
+      <div class="Technical-bars">
+        <div class="bar">
+          <i class="bx bxl-html5"></i>
+          <div class="indfo">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bx bxl-css3"></i>
+          <div class="indfo">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bx bxl-javascript"></i>
+          <div class="indfo">
+            <span>JAVASCRIPT</span>
+          </div>
+          <div class="progress-line javascript"> 
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bx bxl-python"></i>
+          <div class="indfo">
+            <span>PYTHON</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+
+    <section class="service">
+      <h1>Service</h1>
+      
+        <span style="--i:4">Portfolio designing</span>
+        <span style="--i:3">Vedio Editing</span>
+        <span style="--i:2">Web page designing</span>
+        <span style="--i:1">Frontend designing</span>
+      
+    </section>
+    <br>
+    <section class="contact">
+      <h1>Contact</h1>
+      
+      <span><i>Let's work on your project together</i></span>
+      <form
+        action="https://formsubmit.co/tanishqsahu1233@gmail.com"
+        method="POST"
+      >
+      
+        <ul>
+          <li>
+            <input type="text" id="name" name="name" placeholder="_____Name______"/>
+          </li>
+          <li>
+            <input type="email" id="email" name="email" placeholder="______E-mail______"/>
+          </li>
+          <li>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="_____Text-Me_____  "
+            ></textarea>
+          </li>
+          <li><button type="submit">Send Email</button></li>
+        </ul>
+      </form>
+      
+    </section>
+    <br>
+        <footer class="footer">
+        <p>&copy; 2025 Portfolio | All Rights Reserved</p>
+        <div class="footer-links">
+            <a href="prv.txt">Privacy Policy</a>
+            <a href="term.txt">Terms of Service</a>
+            
+        </div>
+    </footer>
+    
+
+  </body>
+</html>
